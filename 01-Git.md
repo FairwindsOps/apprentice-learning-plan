@@ -20,7 +20,7 @@ By the end of the module, the SRE will create, configure and make changes to a r
 3. Do the same thing as #2, but use `rebase -i` 
 4. Describe a scenario when you would you merge vs. rebase. Describe a scenario when you would you rebase vs. merge.
 
-Send your deliverables to the person heling you with your learning plan
+Send your deliverables to the person helping you with your learning plan.
 
 ## Learning Resources: 
 
