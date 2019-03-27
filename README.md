@@ -1,5 +1,7 @@
 # ReactiveOps Apprentice Learning Plan 
 
+This is an example learning plan for new Site Reliability Engineers. 
+
 ## For Mentors: 
 * Create a new copy of repo and update as needed based on the skillset of your incoming-SRE.
 
