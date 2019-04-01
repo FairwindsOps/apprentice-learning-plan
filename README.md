@@ -8,7 +8,7 @@ This plan assumes that the new SRE can do the following:
 * Create, list and destroy directories and files with `mkdir`, `touch`, `ls`, and `rm` 
 * Build a 'hello world' web application in a language of their choice. 
 
-If you're new to the command line, please spend some time on the first two levels of the [Command Line Module on ShortCutFoo](https://www.shortcutfoo.com/app/dojos/command-line)
+If you're new to the command line, please spend some time on the first two levels of the [Command Line Module on ShortCutFoo](https://www.shortcutfoo.com/app/dojos/command-line).
 
 If you're new to building web applications, find and work through a 'hello world' tutorial in Python, Ruby, Go, JavaScript, or another language that interests you. 
 
