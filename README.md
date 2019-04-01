@@ -3,14 +3,16 @@
 This is an example learning plan for new Site Reliability Engineers. 
 
 ## Prerequisites
-This plan assumes that the new SRE can do the following: 
+This plan assumes that the new SRE has used their terminal and can do the following: 
+* Fork and clone a remote repository 
 * Navigate the command line with `cd` 
 * Create, list and destroy directories and files with `mkdir`, `touch`, `ls`, and `rm` 
 * Build a 'hello world' web application in a language of their choice. 
 
-If you're new to the command line, please spend some time on the first two levels of the [Command Line Module on ShortCutFoo](https://www.shortcutfoo.com/app/dojos/command-line).
-
-If you're new to building web applications, find and work through a 'hello world' tutorial in Python, Ruby, Go, JavaScript, or another language that interests you. 
+If you're still learning these skills, check out these resources: 
+* Github Guide: [How to Clone a Repo](https://help.github.com/en/articles/cloning-a-repository)
+* The first two levels of the [Command Line Module on ShortCutFoo](https://www.shortcutfoo.com/app/dojos/command-line)
+* If you're new to building web applications, find and work through a 'hello world' tutorial in Python, Ruby, Go, JavaScript, or another language that interests you. 
 
 
 ## For Mentors: 
