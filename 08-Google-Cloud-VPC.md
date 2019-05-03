@@ -43,11 +43,11 @@ Complete the project described below. Answer the questions, then schedule a time
   12. Try connecting to the instance from your local terminal as well if you'd like.  
 6. Install nginx and create a load balancer. 
   1. SSH onto the VM and install nginx. 
-  1. On the GCP console, find Load Balancers. From the "Create a load balancer" page, choose TCP Load Balancing. 
-  2. Set the load balancer to be from the internet to your VMs, and as single region only. 
-  3. In "Backend configuration", select the region where your VM exists and select it by name as an existing instance. Create a health check on port 80. 
-  4. In "Frontend configuration", configure port 80 to be exposed. 
-7. Attempt to browse to your load balancer's IP address after it comes up. 
+  2. On the GCP console, find Load Balancers. From the "Create a load balancer" page, choose TCP Load Balancing.
+  3. Set the load balancer to be from the internet to your VMs, and as single region only.
+  4. In "Backend configuration", select the region where your VM exists and select it by name as an existing instance. Create a health check on port 80.
+  5. In "Frontend configuration", configure port 80 to be exposed.
+7. Attempt to browse to your load balancer's IP address after it comes up.
   1. what IP address do you use?
   2. What might be the reason the connection times out?
 8. Go and create another firewall rule that allows HTTP access on port 80, similar to how you had to allow SSH access. 
