@@ -18,7 +18,7 @@ Complete the project described below. Answer the questions, then schedule a time
 
 ### Exercise 
 - https://www.youtube.com/watch?v=aMSWlV4whSg
-1. Log into AWS cloud console
+1. Log into the Fairwinds AWS cloud console
 2. Note region
 3. Create VPC with /16 CIDR (https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenarios.html)
     - Note why you chose the VPC CIDR 
