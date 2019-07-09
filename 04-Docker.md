@@ -24,8 +24,8 @@ Complete the project described below. Answer the questions, then schedule a time
   - https://www.youtube.com/watch?v=JprTjTViaEA
   - https://jonnylangefeld.github.io/learning/Docker/How%2Bto%2BDocker.html
   - Install docker
-  - login to reactiveops quay and dockerhub via the terminal
-    - You will need to be given access to these, reach out to your pod leader.
+  - login to Fairwinds quay and dockerhub via the terminal
+    - You will need to be given access to these accounts, reach out for help.
     - https://hub.docker.com/u/reactiveops/dashboard/
     - `docker login`
     - https://quay.io/organization/reactiveops
