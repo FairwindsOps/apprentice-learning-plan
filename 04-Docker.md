@@ -20,6 +20,7 @@ By the end of this module, the SRE will:
 Complete the project described below. Answer the questions, then schedule a time to meet with your mentor and discuss the what you've built.  
 
 ### Docker
+  1. Setup
   - https://www.youtube.com/watch?v=JprTjTViaEA
   - https://jonnylangefeld.github.io/learning/Docker/How%2Bto%2BDocker.html
   - Install docker
@@ -30,30 +31,32 @@ Complete the project described below. Answer the questions, then schedule a time
     - https://quay.io/organization/reactiveops
     - quay login information https://docs.quay.io/solution/getting-started.html
 
-  1. Create new Dockerfile from `ubuntu:16.04`
-    - https://www.youtube.com/watch?v=6Er8MAvTWlI
-  2. run  `apt-get update` and `apt-get upgrade` `--yes` on separate lines in the Dockerfile
-  3. Build the docker file.  
-    - `docker build -t intro_to_docker .`
-    - How many steps were there?
-  4. Build again
-    - Why doesn’t it take as long?
-      - The ubuntu image is already downloaded and can be referred to by its id (5e8b97a2a082)
-      - Docker cache!
-        - `---> Using cache`
-        -  `---> 1dcd45e300d7`
-      - Every layer checks the Docker cache
-        - The docker cache are images that exist on the disk
-        - http://kimh.github.io/blog/en/docker/gotchas-in-writing-dockerfile-en/
-  5. Use `docker history <image>` to see each step and its layer id
-    - Count the number of lines by using `|` `wc -l`
-    - `docker history d57d088b85d1 | wc -l`
-    - 9 lines!
-  6. Replace the two lines with `apt-get update && apt-get upgrade` `--yes` and build again
-    - How many steps were there?
-    - What is `&&`?
-    - Use `wc -l` here
-    - Why were there fewer steps?
+  2. Create new Dockerfile from `ubuntu:16.04` 
+  
+     - https://www.youtube.com/watch?v=6Er8MAvTWlI
+
+  3. run  `apt-get update` and `apt-get upgrade` `--yes` on separate lines in the Dockerfile
+  4. Build the docker file.  
+      - `docker build -t intro_to_docker .`
+      - How many steps were there?
+  5. Build again
+      - Why doesn’t it take as long?
+        - The ubuntu image is already downloaded and can be referred to by its id (5e8b97a2a082)
+        - Docker cache!
+          - `---> Using cache`
+          -  `---> 1dcd45e300d7`
+        - Every layer checks the Docker cache
+          - The docker cache are images that exist on the disk
+          - http://kimh.github.io/blog/en/docker/gotchas-in-writing-dockerfile-en/
+  6. Use `docker history <image>` to see each step and its layer id
+      - Count the number of lines by using `|` `wc -l`
+      - `docker history d57d088b85d1 | wc -l`
+      - 9 lines!
+  7. Replace the two lines with `apt-get update && apt-get upgrade` `--yes` and build again
+      - How many steps were there?
+      - What is `&&`?
+      - Use `wc -l` here
+      - Why were there fewer steps?
 
 #### More with Docker
 Start a docker container that runs ubuntu linux
