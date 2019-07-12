@@ -17,8 +17,8 @@ By the end of this module, the SRE will:
 Complete the project described below. Answer the questions, then schedule a time to meet with your mentor and discuss the what you've built.  
 
 ### Exercise
+1. Log into the Fairwinds AWS cloud console (If you do not currently have access, talk to your mentor.)
 - https://www.youtube.com/watch?v=aMSWlV4whSg
-1. Log into the Fairwinds AWS cloud console
 2. Note region
 3. Create VPC with /16 CIDR (https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenarios.html)
     - Note why you chose the VPC CIDR
