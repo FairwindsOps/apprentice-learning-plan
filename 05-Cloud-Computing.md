@@ -1,8 +1,8 @@
 # Part V: Cloud Computing
 
-## Objectives 
+## Objectives
 By the end of this module, the SRE will:
-1. Describe the following cloud computing concepts: 
+1. Describe the following cloud computing concepts:
     - VMs
     - VPC/Subnets
     - Regions/Zones
@@ -11,17 +11,17 @@ By the end of this module, the SRE will:
     - Gateways
     - Routes
 
-2. Setup a VPC in AWS 
+2. Setup a VPC in AWS
 
-## Deliverables 
+## Deliverables
 Complete the project described below. Answer the questions, then schedule a time to meet with your mentor and discuss the what you've built.  
 
-### Exercise 
+### Exercise
 - https://www.youtube.com/watch?v=aMSWlV4whSg
 1. Log into the Fairwinds AWS cloud console
 2. Note region
 3. Create VPC with /16 CIDR (https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenarios.html)
-    - Note why you chose the VPC CIDR 
+    - Note why you chose the VPC CIDR
     - Create a NAT gateway within your VPC for private traffic egress
     - Create a private and a public subnet within the VPC you created
       1. note the size you’ve chosen for your subnets and why
@@ -39,7 +39,7 @@ Complete the project described below. Answer the questions, then schedule a time
 5. Attempt to SSH into your instance using `ssh -i <private key> <default_user>@<ip address>`
     - What IP address do you use?
     - What might be the reason it can’t connect?
-    - Whatever Linux AMI you chose has a default user (ubuntu's is `ubuntu`) 
+    - Whatever Linux AMI you chose has a default user (ubuntu's is `ubuntu`)
 6. Create an public/external classic ELB in the public subnet you created in your VPC
     - create a listener that exposes both port 22 tcp on the outside (load balancer) and 22 tcp on the inside (instance)
     - create a security group and give it an identifiable name
@@ -52,9 +52,13 @@ Complete the project described below. Answer the questions, then schedule a time
 8. Adjust your ELB security group and instance security group to allow communication between the two on SSH port 22 (tcp)
 9. SSH to your instance via the ELB
 
-## Learning Resources 
+## Learning Resources
 
 - http://www.davidc.net/sites/default/subnets/subnets.html (Subnet calculator)
 - https://tools.ietf.org/html/rfc1918 (Section 3, Private Address Space)
 - https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Scenario2.html (First part of Overview and first diagram)
+
+## Optional
+1. Ask your mentor to pair with you and rebuild all of the above in Terraform
 - Terraform info https://www.youtube.com/watch?v=h970ZBgKINg
+- Terraform docs https://www.terraform.io/docs/index.html
