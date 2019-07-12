@@ -21,9 +21,9 @@ Complete the project described below. Answer the questions, then schedule a time
 
 ### Docker
   1. Setup
+  - Install docker
   - https://www.youtube.com/watch?v=JprTjTViaEA
   - https://jonnylangefeld.github.io/learning/Docker/How%2Bto%2BDocker.html
-  - Install docker
   - login to Fairwinds quay and dockerhub via the terminal
     - You will need to be given access to these accounts, reach out for help.
     - https://hub.docker.com/u/reactiveops/dashboard/
@@ -31,8 +31,8 @@ Complete the project described below. Answer the questions, then schedule a time
     - https://quay.io/organization/reactiveops
     - quay login information https://docs.quay.io/solution/getting-started.html
 
-  2. Create new Dockerfile from `ubuntu:16.04` 
-  
+  2. Create new Dockerfile from `ubuntu:16.04`
+
      - https://www.youtube.com/watch?v=6Er8MAvTWlI
 
   3. run  `apt-get update` and `apt-get upgrade` `--yes` on separate lines in the Dockerfile
