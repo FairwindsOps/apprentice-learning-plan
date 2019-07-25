@@ -1,4 +1,4 @@
-# ReactiveOps Apprentice Learning Plan 
+# Fairwinds Apprentice Learning Plan 
 
 This is an example learning plan for new Site Reliability Engineers. 
 

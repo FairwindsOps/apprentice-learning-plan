@@ -21,8 +21,8 @@ By the end of this module, the SRE will:
 
 ### Docker 
   - Install docker
-  - `docker login` to reactiveops quay and dockerhub
-    - https://hub.docker.com/u/reactiveops/dashboard/
+  - `docker login` to fairwinds quay and dockerhub
+    - https://hub.docker.com/u/fairwinds/dashboard/
     - https://quay.io/organization/reactiveops
   - create new Dockerfile from `ubuntu:16.04`
   - run  `apt-get update` and `apt-get upgrade` `--yes` on separate lines in the Dockerfile
