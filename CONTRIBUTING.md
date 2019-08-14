@@ -4,7 +4,7 @@ We are looking for help identifying typos and broken links, as well as suggestio
 
 ## Submitting changes
 
-Please send a [GitHub Pull Request to reactiveops/apprentice-learning-plan](https://github.com/reactiveops/apprentice-learning-plan/pulls) with a clear list of what you've done (read more about [pull requests](http://help.github.com/pull-requests/)). When you send a pull request, we'll review it, and merge it if it's ready to go, or ask for changes. 
+Please send a [GitHub Pull Request to fairwinds/apprentice-learning-plan](https://github.com/FairwindsOps/apprentice-learning-plan/pulls) with a clear list of what you've done (read more about [pull requests](http://help.github.com/pull-requests/)). When you send a pull request, we'll review it, and merge it if it's ready to go, or ask for changes. 
 
 Always write a clear log message for your commits. One-line messages are fine for small changes, but bigger changes should look like this:
 
