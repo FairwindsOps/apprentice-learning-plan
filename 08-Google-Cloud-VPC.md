@@ -3,14 +3,13 @@
 ## Objectives 
 This learning session builds on network concepts from [05-Cloud-Computing](05-Cloud-Computing.md) and uses them on Google Cloud instead of AWS. This is to primarily show the similarities and differences in VPC network structure between AWS and Google Cloud. 
 By the end of this module, the SRE will:
-1. Describe the following concepts: 
-- GCP cloud computing concepts 
-  - Scope of VPC in Google Cloud versus the scope of VPC in AWS
-  - Subnets in GCP vs subnets in AWS
-  - Regions/Zones in GCP vs AWS
-  - GCP Firewall rules and targets versus AWS security groups
-  - GCP Cloud NAT vs AWS NAT gateway
-  - Google Cloud Load Balancers
+1. Describe the following concepts:  
+    - Scope of VPC in Google Cloud versus the scope of VPC in AWS
+    - Subnets in GCP vs subnets in AWS
+    - Regions/Zones in GCP vs AWS
+    - GCP Firewall rules and targets versus AWS security groups
+    - GCP Cloud NAT vs AWS NAT gateway
+    - Google Cloud Load Balancers
 2. Setup a VPC in GCP 
 
 ## Deliverables 
@@ -19,8 +18,8 @@ Complete the project described below. Answer the questions, then schedule a time
 ### Exercise 
 
 1. Log into GCP console
-3. Create a VPC network
-  1. Select Custom subnet creation mode.
+2. Create a VPC network
+  a. Select Custom subnet creation mode.
     1. Create 3 subnets in any region you'd like and with any names you'd like. Note that the subnets can be in any region and still talk to each other. 
     2. For each subnet, specify an IP address range of /24 size within the blocks defined in [RFC1918](https://tools.ietf.org/html/rfc1918). Set "Private Google Access" to On for each. 
   2. Leave "Dynamic routing mode" to regional for this exercise -- this is only relevant when we link this VPC to an on-premises network or another VPC hosted elsewhere via a VPN. 
