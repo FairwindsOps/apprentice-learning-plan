@@ -27,11 +27,11 @@ Helm is a “package manager” for Kuberentes. It allows a simple, single comma
 2. Install Helm on your workstation
     1. https://helm.sh/docs/using_helm/#installing-helm
 3. If RBAC is enabled in your cluster (which it should be), create a Role and RoleBinding for the Tiller.
-    1. Create a Namespace for Tiller: `kubectl create namespaces tiller`
-    2. Create a ServiceAccount for Tiller: `kubectl -n tiller create sa tiller`
+    1. Create a Namespace for Tiller: `kubectl create namespace helm-system`
+    2. Create a ServiceAccount for Tiller: `kubectl -n helm-system create sa tiller`
     3. Bind `cluster-admin` cluster role to `tiller` ServiceAccount:  `kubectl create clusterrolebinding tiller --clusterrole cluster-admin --serviceaccount=tiller:tiller`
-4. Initialize Tiller  `helm init --upgrade --tiller-namespace tiller --service-account tiller` 
-5. Set Environment `export TILLER_NAMESPACE=tiller`
+4. Initialize Tiller  `helm init --upgrade --tiller-namespace helm-system --service-account tiller`
+5. Set Environment `export TILLER_NAMESPACE=helm-system`
 
 **Working with Helm:**
 
