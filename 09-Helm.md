@@ -1,4 +1,4 @@
-# Part 8: Google Cloud VPC
+# Part IX: Helm
 
 Helm is a “package manager” for Kuberentes. It allows a simple, single command, to install and configure various software in a cluster. It also keeps track of ‘releases’ and allows you to roll back easily to any release. Helm exists in to parts, the `helm`  binary running from your workstation and the `tiller`, running in the cluster and interacting with the Kubernetes api. This creates an interesting security challenge that we’ll discuss later. This curriculum will walk you through configuration and use of Helm in a Kubernetes cluster and touch on chart creation. 
 

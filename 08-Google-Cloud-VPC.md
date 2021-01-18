@@ -1,4 +1,4 @@
-# Part 8: Google Cloud VPC
+# Part VIII: Google Cloud VPC
 
 ## Objectives 
 This learning session builds on network concepts from [05-Cloud-Computing](05-Cloud-Computing.md) and uses them on Google Cloud instead of AWS. This is to primarily show the similarities and differences in VPC network structure between AWS and Google Cloud. 
