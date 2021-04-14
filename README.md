@@ -1,9 +1,9 @@
-# Fairwinds Apprentice Learning Plan 
+# Guild Education Apprentice Learning Plan 
 
-This is an example learning plan for new Site Reliability Engineers. 
+This is an example learning plan for new DevOps Engineers. 
 
 ## Prerequisites
-This plan assumes that the new SRE has used their terminal and can do the following: 
+This plan assumes that the new DevOps Engineer has used their terminal and can do the following: 
 * Fork and clone a remote repository 
 * Navigate the command line with `cd` 
 * Create, list and destroy directories and files with `mkdir`, `touch`, `ls`, and `rm` 
@@ -18,5 +18,5 @@ If you're still learning these skills, check out these resources:
 ## For Mentors: 
 * Create a new copy of repo and update as needed based on the skillset of your incoming-SRE.
 
-## For Apprentice-Level SREs 
+## For Apprentice-Level DevOps Engineers 
 * Fork and clone this repo, and start working through the plan starting with `01-Git`. Note the deliverables, and work with your mentor to setup times to meet and review your work. 
