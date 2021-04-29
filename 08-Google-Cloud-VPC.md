@@ -2,7 +2,7 @@
 
 ## Objectives
 This learning session builds on network concepts from [05-Cloud-Computing](05-Cloud-Computing.md) and uses them on Google Cloud instead of AWS. This is to primarily show the similarities and differences in VPC network structure between AWS and Google Cloud.
-By the end of this module, the SRE will:
+By the end of this module, the DevOps Engineer will:
 1. Describe the following concepts:  
     - Scope of VPC in Google Cloud versus the scope of VPC in AWS
     - Subnets in GCP vs subnets in AWS
