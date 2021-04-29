@@ -1,7 +1,8 @@
 # Part IV: Docker
 
 ## Objectives:
-By the end of this module, the SRE will:
+By the end of this module, the DevOps Engineer will:
+
 - Describe the directives from a sample dockerfile
 - Explain layers and the docker cache
 - Start a docker container that runs ubuntu linux
@@ -24,12 +25,6 @@ Complete the project described below. Answer the questions, then schedule a time
   - Install docker
   - https://www.youtube.com/watch?v=JprTjTViaEA
   - https://jonnylangefeld.github.io/learning/Docker/How%2Bto%2BDocker.html
-  - login to Fairwinds quay and dockerhub via the terminal
-    - You will need to be given access to these accounts, reach out for help.
-    - https://hub.docker.com/u/reactiveops/dashboard/
-    - `docker login`
-    - https://quay.io/organization/reactiveops
-    - quay login information https://docs.quay.io/solution/getting-started.html
 
   2. Create new Dockerfile from `ubuntu:16.04`
 

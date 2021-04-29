@@ -1,7 +1,7 @@
 # Part V: Cloud Computing
 
 ## Objectives
-By the end of this module, the SRE will:
+By the end of this module, the DevOps Engineer will:
 1. Describe the following cloud computing concepts:
     - VMs
     - VPC/Subnets
@@ -17,7 +17,7 @@ By the end of this module, the SRE will:
 Complete the project described below. Answer the questions, then schedule a time to meet with your mentor and discuss the what you've built.  
 
 ### Exercise
-1. Log into the Fairwinds AWS cloud console (If you do not currently have access, talk to your mentor.)
+1. Log into the Guild Education AWS cloud console (If you do not currently have access, talk to your mentor.)
 - https://www.youtube.com/watch?v=aMSWlV4whSg
 2. Note region
 3. Create VPC with /16 CIDR (https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenarios.html)
@@ -59,6 +59,5 @@ Complete the project described below. Answer the questions, then schedule a time
 - https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Scenario2.html (First part of Overview and first diagram)
 
 ## Optional
-1. Ask your mentor to pair with you and rebuild all of the above in Terraform
-- Terraform info https://www.youtube.com/watch?v=h970ZBgKINg
-- Terraform docs https://www.terraform.io/docs/index.html
+1. Ask your mentor to pair with you and rebuild all of the above in CloudFormation
+- Cloudformation docs https://aws.amazon.com/cloudformation/getting-started/
