@@ -1,7 +1,7 @@
 # Part II: yaml or yml
 
 ## Objectives
-By the end of the learning session, the SRE will create a YAML file that contains the following components:
+By the end of the learning session, the DevOps Engineer will create a YAML file that contains the following components:
 
 - comments
 - proper whitespace (2 spaces)
